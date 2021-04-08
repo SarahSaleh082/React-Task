@@ -1,0 +1,95 @@
+/*===============Styling First Phase==============*/
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    padding: 0 7%;
+}
+ul{
+    list-style: none;
+    width: 25%;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 0;
+    margin: 0;
+    
+}
+li{
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+li>a{
+    text-decoration: none;
+    
+    color: cadetblue;
+}
+li a:hover{
+    
+    background-color: #ccc;
+}
+form{
+    width: 100%;
+    margin: 100px auto;
+    
+}
+form .item{
+    
+    width: 50%;
+}
+.item label{
+    display: block;
+}
+form .dropdown{
+    display: inline-block;
+    width: 40%;
+    /* height: 30%; */
+    padding: 5px 0;
+    margin: 10px 0;
+    margin-left: 30%;
+}
+button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin-left: 80%;
+    background-color: cadetblue;
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 20px;
+    
+}
+.item-box{
+    width: 25%;
+    /* margin-top: 50px; */
+    margin-left: 50%;
+    
+}
+table{
+    width: 100%;
+    border: 2px solid #ccc;
+}
+h1{
+    color: cadetblue;
+}
+/*=====================Styling Second Phase=================*/
+
+.save-button{
+    display: block;
+    width: 100px;
+    height: 30px;
+    margin:  5% 50%;
+    background-color: cadetblue;
+    border: 1px solid transparent;
+    color: #eee;
+    font-size: 20px;
+}
+.image-wrapper{
+    width: 30%;
+    height: 30%;
+    /* margin-top: -50%; */
+    margin: -40% 70%;
+}
